@@ -16,6 +16,7 @@ let PLOT_WIDTH=550;
 let PLOT_HEIGHT=400;
 
 let PROJECT_TITLE='Absolute Protein Quantification';
+let TAB_TITLE='Leishmania'
 
 let _margin_1 = 0;
 let _margin_2 = 0;
