@@ -1,5 +1,5 @@
-let X1='m_DD8';
-let Y1='m_HCZ';
+let X1='m_HCZ';
+let Y1='m_DD8';
 let X2='FC2';
 let Y2='INT2';
 
