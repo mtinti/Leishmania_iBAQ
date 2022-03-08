@@ -17,7 +17,12 @@ td { font-size: 12px; }
 label { font-size: 12px; }
 .dataTables_info {font-size: 12px;}
 .dataTables_paginate {font-size: 12px;}
-.dt-button {font-size: 8px;}
+.dt-button {
+  font-size: 8px;
+
+  top:5px;
+
+}
 
 
 .gene_name {

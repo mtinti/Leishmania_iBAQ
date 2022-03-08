@@ -40,5 +40,12 @@ let COLOR_SELECTION_CIRCLE = 'orange';
 
 let Y_LABEL_BARPLOT = 'iBAQ';
 
+//names of the file with the data
+//scatter plots
 let File_1 = 'indata.csv';
+//bar plots
 let File_2 = 'indata2.csv';
+
+//these are th columns to show from file n1
+//positions og Gene_acc','Gene_id' must not change
+let COLUMNS_TO_TABULATE = ['Gene_acc','Gene_id','m_HCZ','m_DD8','FC2', 'INT2', 'Desc', 'pg_index'];

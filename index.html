@@ -84,14 +84,14 @@
 
       <div class="col-md-6">
         <button id='button_2' type="submit" class="btn btn-primary" onclick="save_as_svg('plot2');">Download Plot</button>
-        <svg id="plot2"></svg>
+        <svg id="plot1"></svg>
         
       </div>
       
       <div class="col-md-6">
         
         <button type="submit" class="btn btn-primary" onclick="save_as_svg('plot1');">Download Plot</button>
-        <svg id="plot1"></svg>
+        <svg id="plot2"></svg>
         
       </div>
 
@@ -393,7 +393,7 @@ LdBPK_242180</textarea>
 
       
       //use all the columns in the file
-      var columns = files[0].columns.slice(0,8);
+      var columns = COLUMNS_TO_TABULATE; //files[0].columns.slice(0,8);
       //console.log('File Columns', columns);
       //add data to the table
       tabulate(files[0], columns, '#table');
