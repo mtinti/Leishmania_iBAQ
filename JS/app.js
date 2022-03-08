@@ -388,7 +388,12 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
               x2_array.push(i);}
 
             
-
+            var xs_box = {
+                //CONDITION_1: 'x1',
+                //CONDITION_2: 'x2',
+                  };
+            xs_box[CONDITION_1]='x1';
+            xs_box[CONDITION_2]='x2';
 
             //load box plot
             box_plot_chart.load({
@@ -406,10 +411,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
               ],
 
     
-              xs: {
-                'DD8': 'x1',
-                'HCZ': 'x2',
-                },
+              xs: xs_box,
 
 
             });

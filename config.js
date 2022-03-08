@@ -25,16 +25,14 @@ let _border_1_x = 0;
 let _border_1_y = -10;
 
 let _border_2_x = 10;
-let _border_2_y = 10;
+let _border_2_y = -2;
 
-let BOX_PLOT_COLS_1 = ['DD8_1', 'DD8_2', 'DD8_3']
-let BOX_PLOT_COLS_2 = ['HCZ_1', 'HCZ_2', 'HCZ_3']
+let BOX_PLOT_COLS_1 = ['DD8_1', 'DD8_2', 'DD8_3'];
+let BOX_PLOT_COLS_2 = ['HCZ_1', 'HCZ_2', 'HCZ_3'];
 
-
-//need to manually change conditions in
-//xs table (index.html) and scatter plot app (app.js)
-let CONDITION_1 = 'DD8'
-let CONDITION_2 = 'HCZ'
+//for the bar plot legend
+let CONDITION_1 = 'DD8';
+let CONDITION_2 = 'HCZ';
 
 
 let COLOR_SELECTION_TABLE = 'orange';

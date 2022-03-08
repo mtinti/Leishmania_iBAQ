@@ -230,7 +230,18 @@ LdBPK_242180</textarea>
     
     $.LoadingOverlay("show", {imageColor:'#000000'});
 
+
+    var xs_box = {
+      //CONDITION_1: 'x1',
+      //CONDITION_2: 'x2',
+        };
+    xs_box[CONDITION_1]='x1';
+    xs_box[CONDITION_2]='x2';
+    console.log('xs_box',xs_box);
+
     var box_plot_chart = c3.generate({
+
+
 
       oninit: function() {
         this.svg.attr('id', 'bar_chart_svg')
@@ -258,11 +269,8 @@ LdBPK_242180</textarea>
         
       },
 
-      xs: {
-            'DD8': 'x1',
-            'HCZ': 'x2',
-        },
 
+      xs: xs_box,
 
       axis: {
 
@@ -617,10 +625,7 @@ LdBPK_242180</textarea>
             //['x2',21,22,23,24,25,26,27,27,28,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47]
           ],
 
-          xs: {
-                    'DD8': 'x1',
-                    'HCZ': 'x2',
-                },
+          xs: xs_box,
 
 
 
